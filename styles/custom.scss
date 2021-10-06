@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Zilla Slab", serif;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.cust-bg {
+  background-image: url("/assets/images/nav.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blue;
+}
+
+.navbar-expand-lg {
+  .navbar-nav {
+    .nav-link {
+      padding-right: 0.8rem;
+      padding-left: 0.8rem;
+      font-size: 16px;
+      color: #fde7b6;
+      :hover {
+        color: black;
+      }
+    }
+  }
+}
+
+.content-wrapper {
+  background-image: url("/assets/images/main-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 92px);
+  display: flex;
+}
+
+section {
+  .content-wrap {
+    align-items: center;
+    padding-top: 20px;
+    .col-lg .epw-logo {
+    padding: 100px 60px 60px 60px;
+      margin-right: auto;
+      margin-left: 0;
+    }
+    .col-lg .logins-form {
+        color: white;
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+}
+.submit-login{
+    background-color: #424a63;
+    border-color: #424a63;
+    ::active{
+        background-color: #707891;
+        border-color: #707891;
+    }
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #424a63;
+    border-color: #424a63
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #4f5360;
+    border-color: #4f5360
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem #707891
+}
+
+.regist {
+    color: #FDE7B6;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    a{
+        color: #FDE7B6
+    }
+}
