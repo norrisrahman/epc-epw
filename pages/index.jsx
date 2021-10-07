@@ -10,15 +10,15 @@ export default function Home() {
       <body>
         <Navigation />
         <div className="content-wrapper">
-          <div class="container">
+          <div className="container">
             <section>
-              <div class="row content-wrap">
-                <div class="col-lg">
+              <div className="row content-wrap">
+                <div className="col-lg">
                   <div className="epw-logo">
                     <Img src={epwLogo} alt="" />
                   </div>
                 </div>
-                <div class="col-lg">
+                <div className="col-lg">
                   <div className="logins-form">
                     <LoginForm />
                   </div>
